@@ -42,11 +42,11 @@
 		var str = form.serialize(); 
 		$.ajax({
 			method: "POST",
-			url: "http://formspree.io/your@mail.com",
+			url: "http://formspree.io/pratikandshreeya@mail.com",
 			data: dataString,
 			dataType: "json",
 			success: function() {
-			$('#div_'+type).html("<div id='form_send_message'>Thank you for your request, we will contact you as soon as possible.</div>", 1500);	
+			$('#div_'+type).html("<div id='form_send_message'>Thank you for your RSVP!</div>", 1500);	
 		}
 		});
 		}
@@ -119,7 +119,7 @@
 
 		
 		/*CountDown*/
-		$('.married_coundown').countdown({until: new Date(2015, 12, 19)});
+		$('.married_coundown').countdown({until: new Date(2016, 10, 26)});
 		
 		/*OWL Carousel in Our Story*/
 		$(".story_wrapper").owlCarousel({
